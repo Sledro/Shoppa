@@ -36,6 +36,12 @@ angular.module('app.routes', [])
     }
   })
 
+  .state('landing', {
+    url: '/landing',
+    templateUrl: 'templates/landing.html',
+    controller: 'landingCtrl'
+  })
+	
   .state('menu2', {
       url: '/page7',
       templateUrl: 'templates/menu2.html',
@@ -95,7 +101,7 @@ angular.module('app.routes', [])
     }
   })
 
-$urlRouterProvider.otherwise('/page1/page5')
+$urlRouterProvider.otherwise('landing')
 
 
 

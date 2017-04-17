@@ -214,7 +214,7 @@ angular.module('app.controllers', [])
         });
         $rootScope.extras = false;
         sharedUtils.hideLoading();
-        $state.go('tabsController.login', {}, {location: "replace"});
+        $state.go('landing', {}, {location: "replace"});
 
       }
     });
@@ -481,6 +481,13 @@ angular.module('app.controllers', [])
 .controller('supportCtrl', function($scope,$rootScope) {
 
     $rootScope.extras=true;
+
+})
+
+
+.controller('landingCtrl', function($scope,$rootScope) {
+
+    //$rootScope.extras=true;
 
 })
 
