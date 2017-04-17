@@ -8,9 +8,20 @@ angular.module('app.routes', [])
   // Each state's controller can be found in controllers.js
   $stateProvider
 
+  
+  .state('signup', {
+    url: '/page6',
+    templateUrl: 'templates/signup.html',
+    controller: 'signupCtrl'
+  })
+  
+  .state('location', {
+    url: '/location',
+    templateUrl: 'templates/location.html',
+    controller: 'locationCtrl'
+  })
 
-
-  .state('tabsController', {
+ /*  .state('tabsController', {
     url: '/page1',
     templateUrl: 'templates/tabsController.html',
     abstract:true
@@ -34,7 +45,7 @@ angular.module('app.routes', [])
         controller: 'signupCtrl'
       }
     }
-  })
+  }) */
 
   .state('landing', {
     url: '/landing',
@@ -84,6 +95,12 @@ angular.module('app.routes', [])
     templateUrl: 'templates/support.html',
     controller: 'supportCtrl'
   })
+  
+  .state('login', {
+    url: '/login',
+    templateUrl: 'templates/login.html',
+    controller: 'loginCtrl'
+  })
 
   .state('checkout', {
     url: '/page16',
@@ -101,7 +118,7 @@ angular.module('app.routes', [])
     }
   })
 
-$urlRouterProvider.otherwise('landing')
+$urlRouterProvider.otherwise('/landing')
 
 
 
