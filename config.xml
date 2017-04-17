@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <widget id="com.ionicframework.foodkart116068" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>foodkart</name>
+  <name>Shoppa</name>
   <description>&#xD;
-        An Ionic Framework and Cordova project.&#xD;
+        Shoppa - Local Shop Delivery made easy..&#xD;
     </description>
-  <author email="you@example.com" href="http://example.com.com/">&#xD;
-      Your Name Here&#xD;
+  <author email="dan@sledro.com" href="http://sledro.com/">&#xD;
+      Daniel Hayden&#xD;
     </author>
   <content src="index.html"/>
   <access origin="*"/>
