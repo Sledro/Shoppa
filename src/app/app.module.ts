@@ -17,10 +17,10 @@ import { DataProvider } from '../providers/data';
 import { AuthProvider } from '../providers/auth';
 
 export const firebaseConfig = {
-  apiKey: 'AIzaSyDcbsUEReGm_dlijVXC1sMCcqKpCsXt0nQ',
-  authDomain: 'ionic2-angularfire-login-14ea3.firebaseapp.com',
-  databaseURL: 'https://ionic2-angularfire-login-14ea3.firebaseio.com',
-  storageBucket: 'ionic2-angularfire-login-14ea3.appspot.com',
+    apiKey: "AIzaSyDPjUsCzrYkmu5KNoDp9pvaW8zoPS9gfYk",
+    authDomain: "shoppa-157915.firebaseapp.com",
+    databaseURL: "https://shoppa-157915.firebaseio.com",
+    storageBucket: "shoppa-157915.appspot.com",
 };
 
 @NgModule({

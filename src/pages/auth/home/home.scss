@@ -1,18 +1,22 @@
 .auth-home {
-  background-image: url("../../assets/img/auth-background.jpg");
-  background-size: 100%;
-  background-position-y: 50%;
 
-  .logo {
-    height: 50%;
-    width: 100%;
-    .logo-icon {
-      text-align: center;
-      font-size: 40px;
-      padding-top: 30%;
-      color: white;
-    }
-  }
+	.bg{
+		background: url("../assets/img/bg2.jpg") no-repeat;
+		height: 60%;
+		width: 100%;
+	}
+	/* Shoppa */
+	.logo{
+	  background: url("../assets/img/logo.png");
+	  width: 200px;
+	  height: 270px;
+	  margin: 0px auto;
+	}
+
+	.large_button {
+	   height:20%;
+	   margin:0px !important;
+	}
 
   .facebook-btn {
     background-color: #3b5998;

@@ -1,24 +1,22 @@
 <ion-content class="auth-home">
-  <div class="logo">
-    <div class="logo-icon">
-      LOGO
-    </div>
-  </div>
+	<div class="bg">
 
-  <button ion-button block class="facebook-btn" (click)="loginUserWithFacebook()">
+		<div class="logo">
+		</div>
+	</div>
+
+<!--   <button ion-button block class="facebook-btn" (click)="loginUserWithFacebook()">
     <ion-icon name="logo-facebook"></ion-icon>
     Log In with Facebook
-  </button>
+  </button> -->
 
-  <button ion-button color="light" class="sign-up-btn" (click)="openSignUpPage()">Sign Up</button>
-  <button ion-button color="light" class="log-in-btn" (click)="openLoginPage()">Log In</button>
+  <button ion-button full class="large_button" color="orange"(click)="openLoginPage()">LOGIN</button>
+  <button ion-button full class="large_button" (click)="openSignUpPage()">SIGN UP</button>
 
-  <div padding class="error" *ngIf="error">
-    <p>{{error}}</p>
-  </div>
 
-  <div class="terms-of-use-txt">
+
+<!--   <div class="terms-of-use-txt">
     By Signing up you agree to the
     <b (click)="openTermsOfService()">Terms of Service</b>
-  </div>
+  </div> -->
 </ion-content>
