@@ -16,7 +16,7 @@ export class MyApp {
   isAppInitialized: boolean = false;
   user: any;
   rootPage: any = AuthPage;
-  
+
   constructor(
     private platform: Platform,
     protected data: DataProvider,
