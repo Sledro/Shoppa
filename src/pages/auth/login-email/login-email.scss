@@ -1,11 +1,15 @@
 .login-email {
-  background-image: url("../../assets/img/auth-background.jpg");
-  background-size: 100%;
-  background-position-y: 50%;
+
+  p {
+    padding-left:20px;
+    color: #9b9b9b;
+    font-family: 'Roboto', sans-serif;
+  }
 
   .forgot-password-txt {
     width: 50%;
-    color: white;
+    color: #9b9b9b;
+    font-family: 'Roboto', sans-serif;
   }
 
   .sign-up-txt {

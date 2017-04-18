@@ -1,20 +1,13 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Log In with Email
+      Login
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content class="login-email">
-  <ion-row>
-    <div padding class="forgot-password-txt" (click)="openForgotPasswordPage()">
-      Forgot Password
-    </div>
-    <div padding class="sign-up-txt" (click)="openSignUpPage()">
-      Sign Up
-    </div>
-  </ion-row>
+<p>Login with your Shoppa credentials.<p>
 
   <form (ngSubmit)="login()" #loginForm="ngForm">
     <ion-list>
@@ -23,9 +16,23 @@
       </ion-item>
 
       <ion-item>
-        <ion-input type="password" placeholder="Senha" [(ngModel)]="form.password" name="password"></ion-input>
+        <ion-input type="password" placeholder="Password" [(ngModel)]="form.password" name="password"></ion-input>
       </ion-item>
+
+      <!-- <ion-item>
+        <ion-label>Type</ion-label>
+        <ion-select [(ngModel)]="gender">
+          <ion-option value="f" selected="true">Female</ion-option>
+          <ion-option value="m">Male</ion-option>
+        </ion-select>
+      </ion-item> -->
     </ion-list>
+
+    <ion-row>
+      <div padding  class="forgot-password-txt" (click)="openForgotPasswordPage()">
+        Forgot Password?
+      </div>
+    </ion-row>
 
     <button ion-button block [disabled]="!loginForm.form.valid"
       class="log-in-btn">Log In
