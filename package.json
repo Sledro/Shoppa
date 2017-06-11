@@ -19,7 +19,10 @@
     "@angular/platform-browser": "2.2.1",
     "@angular/platform-browser-dynamic": "2.2.1",
     "@angular/platform-server": "2.2.1",
+    "@ionic-native/background-geolocation": "^3.12.1",
     "@ionic/storage": "1.1.7",
+    "@types/google-maps": "^3.2.0",
+    "@types/googlemaps": "^3.26.13",
     "angularfire2": "^2.0.0-beta.8",
     "firebase": "^3.6.9",
     "ionic-angular": "2.0.1",
@@ -31,8 +34,9 @@
   },
   "devDependencies": {
     "@ionic/app-scripts": "1.1.0",
-    "typescript": "2.0.9",
-    "cz-conventional-changelog": "^1.2.0"
+    "@types/googlemaps": "^3.26.13",
+    "cz-conventional-changelog": "^1.2.0",
+    "typescript": "2.0.9"
   },
   "cordovaPlugins": [
     "cordova-plugin-statusbar",

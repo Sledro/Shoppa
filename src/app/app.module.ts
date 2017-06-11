@@ -9,8 +9,9 @@ import { LoginEmailPage } from '../pages/auth/login-email/login-email';
 import { SignUpPage } from '../pages/auth/sign-up/sign-up';
 import { HomePage } from '../pages/home/home';
 import { TermsOfServicePage } from '../pages/terms-of-service/terms-of-service';
-
+import { LocationPage } from '../pages/location/location';
 import { AngularFireModule } from 'angularfire2';
+import { AutocompletePage } from '../pages/location/autocomplete';
 
 // Providers
 import { DataProvider } from '../providers/data';
@@ -31,7 +32,9 @@ export const firebaseConfig = {
     LoginEmailPage,
     SignUpPage,
     HomePage,
-    TermsOfServicePage
+    TermsOfServicePage,
+    LocationPage,
+    AutocompletePage
   ],
   imports: [
     IonicModule.forRoot(MyApp),
@@ -45,7 +48,9 @@ export const firebaseConfig = {
     LoginEmailPage,
     SignUpPage,
     HomePage,
-    TermsOfServicePage
+    TermsOfServicePage,
+    LocationPage,
+    AutocompletePage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, DataProvider, AuthProvider]
 })

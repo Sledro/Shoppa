@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { AuthProvider } from '../../providers/auth';
 import { AuthPage } from '../auth/home/home';
+import { LocationPage } from '../location/location';
 
 @Component({
   templateUrl: 'home.html',
@@ -15,6 +16,10 @@ export class HomePage {
 logout(){
   this.auth.logout();
   this.navCtrl.push(AuthPage);
+}
+
+LocationPage(){
+  this.navCtrl.push(LocationPage);
 }
 
 }

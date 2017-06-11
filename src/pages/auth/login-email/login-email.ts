@@ -4,6 +4,7 @@ import { ForgotPasswordPage } from '../forgot-password/forgot-password';
 import { SignUpPage } from '../sign-up/sign-up';
 import { AuthProvider } from '../../../providers/auth';
 import { HomePage } from '../../home/home';
+import { LocationPage } from '../../location/location';
 
 @Component({
   templateUrl: 'login-email.html',
@@ -40,7 +41,7 @@ export class LoginEmailPage {
     this.auth.loginWithEmail(this.form).subscribe(data => {
       setTimeout(() => {
         loading.dismiss();
-        this.navCtrl.push(HomePage);
+        this.navCtrl.push(LocationPage);
       }, 1000);
     }, err => {
       setTimeout(() => {
